@@ -1,0 +1,9 @@
+Model do przewidywania: (output)
+    1) wyniku meczu - kto wygra (zestawienie 2 druzyn)
+
+Dane: (input)
+    -mecze które się odbyły na eventach
+    -z tych meczów wziac CECHY ktora moga wplynac na to kto wygra (KD ratio, hltv rating, HS%, ranking druzyny, mapa, typ meczu [Lan, Online])
+
+Problem:
+    -klasyfikacja
