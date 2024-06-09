@@ -15,4 +15,4 @@ Parameters taken in consideration were:
   <li>avg HLTV 2.0 rating</li>
 </ul>
 
-For more details checkout *there will be link to pdf file*
+For more details checkout <https://github.com/chewmanji/msid_raport/blob/main/Raport.pdf> and <https://github.com/chewmanji/msid_raport/blob/main/notebook.ipynb>
