@@ -3,7 +3,6 @@ from bs4 import BeautifulSoup
 import json
 import random
 from time import sleep
-from pathlib import Path
 
 
 PREFIX = "https://www.hltv.org"

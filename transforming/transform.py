@@ -68,8 +68,10 @@ if __name__ == "__main__":
         regex_match = re.match(filename_pattern, path.name)
         if regex_match:
             matches = read_json(path)
+            print(f"Matches: {len(matches)}")
             saved = remove_unranked_matches(matches)
-            id_to_int(matches)
-            result.extend(calculate_avg_values(matches))
+            id_to_int(saved)
+            print(f"Matches after deleting unranked: {len(saved)}")
+            result.extend(calculate_avg_values(saved))
 
     save_to_json(result, "main_data.json")
